@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title>Internal CSS</title>
+
+    <style>
+      #first-div {
+        border: 1px solid red;
+        text-align: center;
+      }
+
+      #second-div {
+        width: 50%;
+        border: 1px dashed blue;
+      }
+
+      #second-div span {
+        text-decoration: underline;
+      }
+
+      #second-div span:last-child {
+        padding-left: 20px;
+        color: green;
+      }
+
+      .third-div {
+        position: absolute;
+        bottom: 25px;
+      }
+
+      .third-div h3 {
+        transform: scaleX(-1);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="first-div">
+      <h1>First Div</h1>
+    </div>
+    <div id="second-div">
+      <h2>Second Div</h2>
+      <span>Span #1</span>
+      <span>Span #2</span>
+      <span>Span #3</span>
+    </div>
+    <div class="third-div">
+      <h3>Third Div</h3>
+    </div>
+  </body>
+</html>
