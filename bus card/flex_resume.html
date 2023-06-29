@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <title>This is a super great page!</title>
+  <link rel="stylesheet" href="./flex_resume.css" />
+</head>
+<!-- Let's start working on the body -->
+
+<body>
+  <!-- Outermost container -->
+  <div id="container">
+
+    <!-- Title section -->
+    <div id="title">
+      <span class="resume-title">
+        Kyle Massey's Interactive Resume
+      </span>
+      <span class="resume-subtitle">
+        Hey...at least I'm not Zak!
+      </span>
+    </div>
+
+    <!-- Image -->
+    <div id="profile-image">
+
+      <img src="https://media.licdn.com/dms/image/C5603AQGgtdhnU4Pnng/profile-displayphoto-shrink_800_800/0/1662673841668?e=1693440000&v=beta&t=lW4bixBgnziPmx8h9w8SVXgjNwjCcERrNtrGN0yljIg" alt="Kyle" />
+
+    </div>
+
+    <!-- Social Media Links -->
+    <div id="social-links">
+      <span class="social-button">
+        <a href="https://www.linkedin.com/in/kylejmassey/">Check out my LinkedIn</a>
+      </span>
+      <span class="social-button">
+        <a href="https://www.twitter.com/UpInYourVizness">Check out my Twitter</a>
+      </span>
+
+    </div>
+
+    <!-- About Me -->
+    <div id="about-me">
+      <div class="about-me-title">
+        <h3>About Me</h3>
+      </div>
+
+      <ul>
+        <li>DataDev Ambassador</li>
+        <li>Lead Software Engineer</li>
+        <li>Not Zak!</li>
+      </ul>
+    </div>
+
+    <div id="tableau-viz">
+      <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
+
+      <tableau-viz src="https://public.tableau.com/views/TableauCodersCSSEmbeddingExample/EmbeddedDashboard" device="desktop" toolbar="none">
+    </div>
+  </div>
+</body>
+
+</html>

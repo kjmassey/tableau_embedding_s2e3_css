@@ -1,0 +1,129 @@
+body {
+  background-color: #d3d3d3;
+}
+
+#container {
+  background-color: white;
+  padding: 12px;
+  box-shadow: 2px 2px 8px rgb(0, 0, 0, 0.5);
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+#title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.resume-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  padding-bottom: 8px;
+}
+
+.resume-subtitle {
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+}
+
+#profile-image {
+  padding: 12px 0 12px 0;
+  display: flex;
+  justify-content: center;
+}
+
+#profile-image img {
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+  border-radius: 10px 10px 10px 10px;
+  text-align: center;
+}
+
+#social-links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 8px 0 8px 0;
+}
+
+#social-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#social-links span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0000ff;
+  width: 50%;
+  max-width: 225px;
+  margin: 0 24px 0 24px;
+  height: 48px;
+  border-radius: 8px;
+}
+
+#social-links span:hover {
+  background-color: grey;
+}
+
+#about-me {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 12px;
+}
+
+.about-me-title {
+  width: 100%;
+}
+
+#about-me h3 {
+  text-align: center;
+  font-size: 24px;
+  width: 100%;
+}
+
+#about-me ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: inline-flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+#about-me li {
+  font-size: 18px;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+#about-me li:hover {
+  background-color: #d3d3d3;
+  transform: scale(1.2);
+  transition-duration: 0.25s;
+}
+
+#about-me li:not(:hover) {
+  transform: scale(1);
+  transition-duration: 0.25s;
+}
+
+#tableau-viz {
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 2px 2px 12px rgb(0, 0, 255, 0.2);
+  border-radius: 8px;
+}
